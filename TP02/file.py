@@ -24,3 +24,4 @@ def retirer_file(file):
 
 def premier_file(file):
     return file[0]
+#! BRUH
