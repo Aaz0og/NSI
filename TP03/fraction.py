@@ -26,3 +26,5 @@ print(f2.valeur())
 f3 = f1.multiplier(f2)
 print(f3)
 print(f3.valeur())
+
+# Niels Carlon-Mismer
