@@ -21,3 +21,6 @@ class File:
         
     def valeurTete(self):
         return self.tete.valeur
+    
+    def __len__(self):
+        return self.taille

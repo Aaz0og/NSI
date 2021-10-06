@@ -1,7 +1,6 @@
 class Cellule:
     def __str__(self):
-        aff = str(self.valeur)
-        return aff
+        return str(self.valeur)
 
     def __init__(self, valeur, suivant):
         self.valeur = valeur
