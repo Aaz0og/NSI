@@ -7,18 +7,6 @@ class Cellule:
         self.suivant = suivant
 
 
-"""
-c3 = Cellule(5, None)
-c2 = Cellule(7, c3)
-c1 = Cellule(19, c2)
-print(c1.valeur)
-print(c1.suivant.valeur)
-print(c1.suivant.suivant.valeur)
-print(c1.suivant.suivant.suivant)
-c1.suivant.valeur
-"""
-
-
 class Pile:
     def __init__(self, sommet=0, taille=0):
         self.sommet = Cellule(sommet, None)
@@ -45,11 +33,6 @@ class Pile:
 
     def __len__(self):
         return self.taille
-
-    """def __str__(self):
-        aff = "Sommet: "+str(self.sommet)
-        aff += "Taille: "+str(self.taille)
-        return aff"""
 
 
 pile_test = Pile()
