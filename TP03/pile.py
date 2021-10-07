@@ -48,3 +48,5 @@ print(pile_test.valeurSommet())
 print(pile_test.depiler())
 print(pile_test.valeurSommet())
 print(len(pile_test))
+
+# Niels Carlon-Mismer
