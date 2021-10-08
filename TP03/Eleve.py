@@ -20,17 +20,17 @@ class Eleve:
         return max(self.notes)
 
     def __str__(self):
-        aff = str(self.nom)+" "+str(self.prenom) + \
-            " - Moyenne : "+str(self.moyenne())
-        return aff
+        return str(self.nom)+" "+str(self.prenom) +" - Moyenne : "+str(self.moyenne())
+        
 
-
+"""
 class Note:
     def __init__(self, valeur, coefficient, matiere):
         self.valeur = valeur
         self.coefficient = coefficient
         self.matiere = matiere
-
+    def moyenneMatiere(self,matiere):
+"""
 
 eleve1 = Eleve("John", "Smith")
 print(eleve1.moyenne())
