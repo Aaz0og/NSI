@@ -125,3 +125,51 @@ def tests_appartient():
     return str("Aucune erreur, appartient")
 
 print(tests_appartient())
+
+def valeur1(chaine):
+    s=0
+    for c in chaine:
+        if c>= "A" and c<= "Z":
+            s=s+ord(c)-ord("A")+1
+    return s
+
+def valeur2(chaine):
+    s=0
+    for c in chaine.upper():
+        if c>= "A" and c< "Z":
+            s=s+ord(c)-ord("A")+1
+    return s
+
+def valeur1test():
+    assert valeur1("AZ-")==2 
+    assert valeur1("AAAZ")==4
+#valeur1test()
+
+def valeur2test():
+    assert valeur2("AZ-")==2 
+    assert valeur2("AAAZ")==4
+#valeur2test()
+
+
+import string
+def valeur3(chaine):
+    chaine = chaine.upper()
+    s=0
+    for c in string.ascii_uppercase:
+        if c in chaine:
+            if c=="Z":
+                s+=26
+            elif c=="A":
+                s+=1
+            elif c in string.ascii_uppercase and not c=="A" and not c=="Z": 
+                s+=string.ascii_uppercase.index(c)
+    return s
+
+
+def valeur3test():
+    assert valeur3("AZ")==27
+    assert valeur3("Aza")==27
+    return "Aucune erreur, valeur3"
+print(valeur3test())
+
+print(valeur3("Arithmancie"))
