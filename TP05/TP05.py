@@ -6,8 +6,7 @@ class NoeudBinaire:
         self.valeur = valeur
         self.fils_gauche = fils_gauche
         self.fils_droite = fils_droite
-    def taille(self,nb_noeuds):
-
+    
 D = NoeudBinaire("D", None, None)
 C = NoeudBinaire("C", D, None)
 B = NoeudBinaire("B", None, None)
