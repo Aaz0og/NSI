@@ -1,0 +1,4 @@
+MrEven=Personnage()
+dicobruh={}
+
+dicobruh
