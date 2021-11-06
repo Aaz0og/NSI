@@ -31,9 +31,29 @@ class balle:
         self.taille_balle=taille_ecran
         self.temps_collision=temps_collision
         self.balle = canvas.create_oval(l-r,h-r,l+r,h+r,width=1, outline="red",fill='blue')
+
+ball = canvas.create_oval(10, 10, 50, 50, fill='green')
+
+# 3) move the ball
+xspeed = yspeed = 3
+class test:
     
-bille=balle.balle
-canvas.create_oval(bille)
+    def moveBall():
+
+        global xspeed, yspeed
+
+        canvas.move(ball, xspeed, yspeed)
+
+        (leftPos, topPos, rightPos, bottomPos) = canvas.coords(ball)
+
+        if leftPos <= 0 or rightPos >= Largeur:
+            xspeed = -xspeed
+        if topPos <= 0 or bottomPos >= Hauteur:
+            yspeed = -yspeed
+
+        canvas.after(30, test.moveBall)
+
+canvas.after(30, test.moveBall)
 
 root.mainloop()
 
