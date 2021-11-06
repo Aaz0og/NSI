@@ -36,18 +36,19 @@ ball = canvas.create_oval(10, 10, 50, 50, fill='green')
 
 # 3) move the ball
 xspeed = yspeed = 3
+t=1
+g=10
 class test:
     
     def moveBall():
 
         global xspeed, yspeed
-
         canvas.move(ball, xspeed, yspeed)
 
         (leftPos, topPos, rightPos, bottomPos) = canvas.coords(ball)
 
         if leftPos <= 0 or rightPos >= Largeur:
-            xspeed = -xspeed
+            xspeed = -xspeed 
         if topPos <= 0 or bottomPos >= Hauteur:
             yspeed = -yspeed
 
