@@ -1,11 +1,12 @@
 import turtle
 import random
+import time
 wn = turtle.Screen()
 wn.bgcolor("black")
 wn.title("Balle")
 wn.tracer(0)
 balls = []
-for _ in range(10):
+for _ in range(1):
     balls.append(turtle.Turtle())
 
 
@@ -22,8 +23,9 @@ for ball in balls:
     ball.dy = -2
     ball.dx = random.randint(-3, 3)
 while True:
-    wn.update()
+    
     for ball in balls:
+        wn.update()
         ball.dy -= g
         ball.sety(ball.ycor()+ball.dy)
         ball.setx(ball.xcor()+ball.dx)
@@ -34,8 +36,11 @@ while True:
         if ball.xcor() < -300:
             ball.dx *= -1
         # Regarde si doit rebondir sur sol
+        
         if ball.ycor() < -300:
             ball.dy *= -1
+            print(ball.dy)
+
 
 
 wn.mainloop()
