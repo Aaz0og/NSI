@@ -65,7 +65,9 @@ def TriSelection(A):
 A= alea(10)
 print("Après Tri:", TriSelection(A))
 
-
+def test(a):
+    
+    return A
 
 """   
 # B - Tri par insertion
