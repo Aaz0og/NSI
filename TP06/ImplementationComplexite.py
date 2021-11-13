@@ -63,24 +63,28 @@ def TriSelection(A):
     return A
 
 A= alea(10)
-print("Après Tri:", TriSelection(A))
-
-def test(a):
-    
-    return A
-
-"""   
+#print("Après Tri:", TriSelection(A))
+   
 # B - Tri par insertion
-#def TriInsertion(A):
+def TriInsertion(A):
     ''' In : liste de nombres A
     Out : liste triée par insertion'''    
-#def Inserer(i,A):
+    for i in range(i,len(A)):
+        print(A)
+        valeuri=A[i]
+        j=i-1
+        while j>=0 and A[i]>valeuri:
+            A[j+1]=A[j]
+            j-=1
+        A[j+1]=valeuri
+    
+def Inserer(i,A):
     ''' In : liste de nombres A, 
     i indice de la valeur à insérer dans la partie de A qui la précède
     Out : A est triée jusqu'à l'indice i inclus.'''
-"""
-
-
-
-
-
+    m=A[i]
+    while i>0 and m<A[i-1]:
+        A[i]=A[i-1]
+        i-=1
+    A[i]=m
+    return A

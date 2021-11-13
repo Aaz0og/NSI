@@ -74,7 +74,7 @@
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -89,6 +89,7 @@
   "active": "5dd7abbad75070a1",
   "lastOpenFiles": [
     "TP06/Explication tri sélectif.md",
+    "PDF/TP6 - Algorithmique - 1.pdf",
     "TP06/Sans titre.md",
     "README.md"
   ]
