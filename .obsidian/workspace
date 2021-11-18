@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#algorithme",
+                "query": "tag:#md",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,10 +103,12 @@
   "active": "164b16291c3977a5",
   "lastOpenFiles": [
     "TP07/Le tri fusion.md",
-    "TP06/Explication tri sélectif.md",
     "code.md",
+    "TXT/Projet Bubble v2.md",
+    "\"Menu\".md",
+    "TP06/Explication tri sélectif.md",
+    "README.md",
     "PDF/TP6 - Algorithmique - 1.pdf",
-    "TP06/Sans titre.md",
-    "README.md"
+    "TP06/Sans titre.md"
   ]
 }
