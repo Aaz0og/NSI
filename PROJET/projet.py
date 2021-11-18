@@ -34,7 +34,7 @@ class balle:
 
 ball = canvas.create_oval(10, 10, 50, 50, fill='green')
 
-# 3) move the ball
+# bouger la balle
 xspeed = yspeed = 3
 t=1
 g=10
