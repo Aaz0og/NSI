@@ -5,33 +5,34 @@ root = Tk()
 
 
 def balls():
-    green_x_speed, green_y_speed = [5,3]
-    red_x_speed, red_y_speed = [5,3]
+    vert_vitesse_x, vert_vitesse_y = [5, 3]
+    rouge_vitesse_x, rouge_vitesse_y = [5, 3]
 
     canvas = Canvas(root, width=800, height=800, bg="grey")
-    root.title("collision detection")
+    root.title("Detection des murs")
     canvas.grid()
 
-    green_ball = canvas.create_oval(20, 20, 30, 10, fill="green")
-    red_ball = canvas.create_oval(780, 780, 790, 790, fill="red")
+    balle_verte = canvas.create_oval(20, 20, 30, 10, fill="green")
+    balle_rouge = canvas.create_oval(780, 780, 790, 790, fill="red")
 
     while True:
-        canvas.move(green_ball, green_x_speed, green_y_speed)
-        green_coordinates = canvas.coords(green_ball)
-        if green_coordinates[3] >= 800 or green_coordinates[1] <= 0:
-            green_y_speed = -green_y_speed
-        if green_coordinates[2] >= 800 or green_coordinates[0] <= 0:
-            green_x_speed = -green_x_speed
+        canvas.move(balle_verte, vert_vitesse_x, vert_vitesse_y)
+        vert_coord = canvas.coords(balle_verte)
+        if vert_coord[3] >= 800 or vert_coord[1] <= 0:
+            vert_vitesse_y = -vert_vitesse_y
+        if vert_coord[2] >= 800 or vert_coord[0] <= 0:
+            vert_vitesse_x = -vert_vitesse_x
 
-        canvas.move(red_ball, red_x_speed, red_y_speed)
-        red_coordinates = canvas.coords(red_ball)
-        if red_coordinates[3] >= 800 or red_coordinates[1] <= 0:
-            red_y_speed = -red_y_speed
-        if red_coordinates[2] >= 800 or red_coordinates[0] <= 0:
-            red_x_speed = -red_x_speed
+        canvas.move(balle_rouge, rouge_vitesse_x, rouge_vitesse_y)
+        rouge_coord = canvas.coords(balle_rouge)
+        if rouge_coord[3] >= 800 or rouge_coord[1] <= 0:
+            rouge_vitesse_y = -rouge_vitesse_y
+        if rouge_coord[2] >= 800 or rouge_coord[0] <= 0:
+            rouge_vitesse_x = -rouge_vitesse_x
 
         time.sleep(0.01)
         root.update()
+
 
 balls()
 root.mainloop()
