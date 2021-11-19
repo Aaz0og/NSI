@@ -1,5 +1,8 @@
 {
   "baseFontSize": 16,
   "cssTheme": "Yin and Yang",
-  "translucency": false
+  "translucency": false,
+  "enabledCssSnippets": [
+    "couleurs"
+  ]
 }
