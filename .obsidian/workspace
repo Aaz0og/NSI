@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TP08/Les images.md",
+            "file": "PROJET/A RENDRE.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TP08/Les images.md",
+            "file": "PROJET/A RENDRE.md",
             "mode": "preview"
           }
         },
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c2d2b1b071f9e030",
@@ -82,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TP08/Les images.md",
+                "file": "PROJET/A RENDRE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,8 +101,8 @@
   },
   "active": "164b16291c3977a5",
   "lastOpenFiles": [
-    "TP08/Les images.md",
     "PROJET/A RENDRE.md",
+    "TP08/Les images.md",
     "TP07/Le tri fusion.md",
     "code.md",
     "TXT/Projet Bubble v2.md",
