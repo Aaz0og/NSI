@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c2d2b1b071f9e030",
@@ -102,6 +103,7 @@
   "active": "164b16291c3977a5",
   "lastOpenFiles": [
     "TP08/Les images.md",
+    "PROJET/A RENDRE.md",
     "TP07/Le tri fusion.md",
     "code.md",
     "TXT/Projet Bubble v2.md",
