@@ -4,28 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "164b16291c3977a5",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "TP08/Les images.md",
-            "mode": "source"
-          }
-        },
-        "group": "a0284f5b40de6a3a"
-      },
-      {
         "id": "cf2916364c7b2f98",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TP08/Les images.md",
+            "file": "TP06/Explication tri sélectif.md",
             "mode": "preview"
           }
-        },
-        "group": "a0284f5b40de6a3a"
+        }
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TP08/Les images.md",
+                "file": "TP06/Explication tri sélectif.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,15 +87,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "164b16291c3977a5",
+  "active": "cf2916364c7b2f98",
   "lastOpenFiles": [
+    "TP06/Explication tri sélectif.md",
     "TP08/Les images.md",
-    "PROJET/A RENDRE.md",
     "TP07/Le tri fusion.md",
+    "PROJET/A RENDRE.md",
     "code.md",
     "TXT/Projet Bubble v2.md",
     "\"Menu\".md",
-    "TP06/Explication tri sélectif.md",
     "README.md",
     "PDF/TP6 - Algorithmique - 1.pdf",
     "TP06/Sans titre.md"
