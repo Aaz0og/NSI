@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TP06/Explication tri sélectif.md",
+            "file": "qefseg.md",
+            "mode": "source"
+          }
+        },
+        "group": "715cc0e24b126941"
+      },
+      {
+        "id": "7362fe802e2ff0c8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "qefseg.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "715cc0e24b126941"
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TP06/Explication tri sélectif.md",
+                "file": "qefseg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +100,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cf2916364c7b2f98",
+  "active": "7362fe802e2ff0c8",
   "lastOpenFiles": [
+    "qefseg.md",
+    "TP09/Les bases de données.md",
     "TP06/Explication tri sélectif.md",
     "TP08/Les images.md",
     "TP07/Le tri fusion.md",
@@ -96,8 +111,6 @@
     "code.md",
     "TXT/Projet Bubble v2.md",
     "\"Menu\".md",
-    "README.md",
-    "PDF/TP6 - Algorithmique - 1.pdf",
-    "TP06/Sans titre.md"
+    "README.md"
   ]
 }
