@@ -4,28 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "cf2916364c7b2f98",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "qefseg.md",
-            "mode": "source"
-          }
-        },
-        "group": "715cc0e24b126941"
-      },
-      {
         "id": "7362fe802e2ff0c8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "qefseg.md",
-            "mode": "preview"
+            "file": "PDF/TP - SQL - Terminale.pdf"
           }
-        },
-        "group": "715cc0e24b126941"
+        }
       }
     ],
     "direction": "vertical"
@@ -65,8 +51,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c2d2b1b071f9e030",
@@ -82,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "qefseg.md",
+                "file": "PDF/TP - SQL - Terminale.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,15 +87,15 @@
   },
   "active": "7362fe802e2ff0c8",
   "lastOpenFiles": [
-    "qefseg.md",
+    "PDF/TP - SQL - Terminale.pdf",
     "TP09/Les bases de données.md",
+    "qefseg.md",
     "TP06/Explication tri sélectif.md",
     "TP08/Les images.md",
     "TP07/Le tri fusion.md",
     "PROJET/A RENDRE.md",
     "code.md",
     "TXT/Projet Bubble v2.md",
-    "\"Menu\".md",
-    "README.md"
+    "\"Menu\".md"
   ]
 }
