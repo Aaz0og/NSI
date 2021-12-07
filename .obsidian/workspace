@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "7362fe802e2ff0c8",
+        "id": "ca77118f6b5a502b",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "PDF/TP - SQL - Terminale.pdf"
+            "file": "TP08/Les images.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PDF/TP - SQL - Terminale.pdf",
+                "file": "TP08/Les images.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7362fe802e2ff0c8",
+  "active": "ca77118f6b5a502b",
   "lastOpenFiles": [
+    "TP08/Les images.md",
+    "pdf.md",
+    "PDF/TP6 - Algorithmique - 1.pdf",
     "PDF/TP - SQL - Terminale.pdf",
     "TP09/Les bases de données.md",
     "qefseg.md",
     "TP06/Explication tri sélectif.md",
-    "TP08/Les images.md",
     "TP07/Le tri fusion.md",
     "PROJET/A RENDRE.md",
-    "code.md",
-    "TXT/Projet Bubble v2.md",
-    "\"Menu\".md"
+    "code.md"
   ]
 }
