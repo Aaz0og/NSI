@@ -7,22 +7,16 @@
         "id": "ca77118f6b5a502b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "PROJET/A RENDRE.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       },
       {
         "id": "cfea7696873303eb",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "PROJET/A RENDRE.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -80,7 +74,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PROJET/A RENDRE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
