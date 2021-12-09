@@ -4,7 +4,7 @@ def somme_liste(l):
     for elements in l:
         r+= elements
     return r
-somme_liste([1,3,4])
+print(somme_liste([1,3,4]))
 
 #-----
 # Exercice 2
@@ -13,7 +13,7 @@ def produit_liste(l):
     for elements in l:
         r*= elements
     return r
-produit_liste([2,3,4])
+print(produit_liste([2,3,4]))
 
 #-----
 # Exercice 3
@@ -30,7 +30,7 @@ def occurrence(x,l):
         if elements == x:
             ite+=1
     return ite
-occurrence(2,[1,2,3,2])
+print(occurrence(2,[1,2,3,2]))
 
 #-----
 # Exercice 5
@@ -106,7 +106,7 @@ def fusion_liste(ly,p):
         if element not in ly:
             ly.append(element)
     return ly
-fusion_liste([1,2,5],[2,3,4,1,2])
+print(fusion_liste([1,2,5],[2,3,4,1,2]))
 
 #-----
 # Exercice 9
