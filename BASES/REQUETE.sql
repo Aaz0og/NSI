@@ -102,3 +102,87 @@ JOIN "Cours" ON Eleves.classe = Cours.classe
 JOIN "Professeurs" ON Cours.professeur = Professeurs.idProfesseur
 WHERE Professeurs.nom = 'Moreno' AND Professeurs.prenom = 'Jameson'
 -- 18
+SELECT DISTINCT "nom","prenom"
+FROM "Matieres"
+JOIN "Cours" ON Matieres.idMatiere = Cours.matiere
+JOIN "Professeurs" ON Cours.professeur = Professeurs.idProfesseur
+WHERE "nomMatiere" = 'Mathematiques' OR "nomMatiere" = 'NSI'
+-- 19
+SELECT DISTINCT "nomMatiere"
+FROM "Classes"
+JOIN "Cours" ON Classes.idClasse = Cours.classe
+JOIN "Professeurs" ON Cours.professeur = Professeurs.idProfesseur
+JOIN "Matieres" ON Cours.matiere = Matieres.idMatiere
+WHERE "idProfesseur" = 2
+ORDER BY "nomMatiere" DESC
+-- 20
+SELECT DISTINCT "nom","prenom"
+FROM "Eleves"
+JOIN "Notes" ON Eleves.idEleve = Notes.eleve
+JOIN "Matieres" ON Notes.matiere = Matieres.idMatiere
+WHERE "nomMatiere" = 'NSI' AND "note" IS NOT NULL
+-- 21
+SELECT COUNT(*)
+FROM "Notes"
+JOIN "Matieres" ON Notes.matiere = Matieres.idMatiere
+WHERE "nomMatiere" = 'NSI' AND "note" IS NOT NULL
+-- 22
+SELECT DISTINCT "nom","prenom"
+FROM "Eleves"
+JOIN "Notes" ON Eleves.idEleve = Notes.eleve
+JOIN "Matieres" ON Notes.matiere = Matieres.idMatiere
+WHERE "nomMatiere" = 'SVT' AND "note" < 10
+-- 23 
+SELECT DISTINCT "nom","prenom"
+FROM "Eleves"
+JOIN "Notes" ON Eleves.idEleve = Notes.eleve
+JOIN "Matieres" ON Notes.matiere = Matieres.idMatiere
+JOIN "Classes" ON Eleves.classe = Classes.idClasse
+WHERE "note" > 10 AND ("nomMatiere" = 'SVT' OR "nomMatiere" = 'NSI') AND "nomClasse"='TG03'
+-- 24 
+SELECT MIN("note")
+FROM "Eleves"
+JOIN "Notes" ON Eleves.idEleve = Notes.eleve
+JOIN "Matieres" ON Notes.matiere = Matieres.idMatiere
+JOIN "Classes" ON Eleves.classe = Classes.idClasse
+WHERE "nomMatiere" = 'NSI' AND "nomClasse" = 'TG01'
+-- 25 
+SELECT AVG("note")
+FROM "Eleves"
+JOIN "Notes" ON Eleves.idEleve = Notes.eleve
+JOIN "Matieres" ON Notes.matiere = Matieres.idMatiere
+JOIN "Classes" ON Eleves.classe = Classes.idClasse
+WHERE ("nom" = 'Dillon' AND "prenom" = 'Porter') 
+-- 26
+SELECT AVG("note")
+FROM "Eleves"
+JOIN "Notes" ON Eleves.idEleve = Notes.eleve
+JOIN "Matieres" ON Notes.matiere = Matieres.idMatiere
+JOIN "Classes" ON Eleves.classe = Classes.idClasse
+WHERE "nomMatiere" = 'Allemand' AND ("nom" = 'Dillon' AND "prenom" = 'Porter') 
+-- 27
+SELECT AVG("note")
+FROM "Eleves"
+JOIN "Notes" ON Eleves.idEleve = Notes.eleve
+JOIN "Matieres" ON Notes.matiere = Matieres.idMatiere
+JOIN "Classes" ON Eleves.classe = Classes.idClasse
+WHERE "nomClasse" = 'TG02'
+-- 28 
+SELECT AVG("note")
+FROM "Eleves"
+JOIN "Notes" ON Eleves.idEleve = Notes.eleve
+JOIN "Matieres" ON Notes.matiere = Matieres.idMatiere
+JOIN "Classes" ON Eleves.classe = Classes.idClasse
+WHERE "nomClasse" = 'TG02' AND "nomMatiere" = 'NSI'
+-- 29 
+SELECT DISTINCT E2.nom,E2.prenom
+FROM "Eleves" E1
+JOIN "Eleves" E2 ON E1.tuteur = E2.idEleve
+WHERE E1.tuteur IS NOT NULL 
+ORDER BY "nom"
+-- 30 
+SELECT DISTINCT E1.nom,E1.prenom
+FROM "Eleves" E1
+JOIN "Eleves" E2 ON E1.tuteur = E2.idEleve
+WHERE (E2.nom = 'Cooke' AND E2.prenom = 'Charlotte') 
+ORDER BY "nom"
