@@ -1,2 +1,8 @@
 ```
-In range de la suite arithmétique du nombre de x et y
+x= table
+y= table
+fonction jeu(table):
+	pour tout les elements dans x:
+		pour tout les elements dans y:
+			
+```

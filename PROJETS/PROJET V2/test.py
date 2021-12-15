@@ -18,8 +18,7 @@ def test(x,y):
     pass
 
 #print(test(x, y))
-
-
+"""
 sarix = 0
 for i in range(len(x)):
     sarix += i
@@ -28,3 +27,4 @@ for i in range(len(y)):
     sariy += i
     
 print("SariY",sariy,"SariX",sarix)
+"""
