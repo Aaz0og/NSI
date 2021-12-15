@@ -9,18 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PROJET V2/Projet V2.md",
+            "file": "PROJETS/PROJET V2/Projet V2.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "f48e80eed2db1ae7",
+        "id": "4e849843494ddec7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PROJET V2/Projet V2.md",
+            "file": "PROJETS/PROJET V2/Projet V2.md",
             "mode": "preview"
           }
         }
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PROJET V2/Projet V2.md",
+                "file": "PROJETS/PROJET V2/Projet V2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +100,8 @@
   },
   "active": "e3199c3913150882",
   "lastOpenFiles": [
+    "PROJETS/PROJET V2/Projet V2.md",
+    "PROJETS/Projet Bubble v2.md",
     "PROJET V2/Projet V2.md",
     "PROJET/A RENDRE.md",
     "TP08/Les images.md",
@@ -107,8 +109,6 @@
     "PDF/TP6 - Algorithmique - 1.pdf",
     "PDF/TP - SQL - Terminale.pdf",
     "TP09/Les bases de données.md",
-    "qefseg.md",
-    "TP06/Explication tri sélectif.md",
-    "TP07/Le tri fusion.md"
+    "qefseg.md"
   ]
 }
