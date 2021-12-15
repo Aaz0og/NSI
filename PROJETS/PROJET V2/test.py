@@ -19,7 +19,6 @@ def test(x,y):
 
 #print(test(x, y))
 
-
 sarix = 0
 for i in range(len(x)):
     sarix += i
