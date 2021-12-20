@@ -19,6 +19,6 @@ class Balle():
         vy=vy
         m=m
     def deplacement(self):
-        
+        pass
 
 root.mainloop()
