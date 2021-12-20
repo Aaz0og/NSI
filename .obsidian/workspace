@@ -1,22 +1,28 @@
 {
   "main": {
-    "id": "1df6b0bdfcd5cf86",
+    "id": "e478e04118fc2513",
     "type": "split",
     "children": [
       {
-        "id": "ca77118f6b5a502b",
+        "id": "e3199c3913150882",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "PROJETS/PROJET V2/Projet V2.md",
+            "mode": "source"
+          }
         }
       },
       {
-        "id": "cfea7696873303eb",
+        "id": "4e849843494ddec7",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "PROJETS/PROJET V2/Projet V2.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -74,6 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PROJETS/PROJET V2/Projet V2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,17 +98,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ca77118f6b5a502b",
+  "active": "e3199c3913150882",
   "lastOpenFiles": [
+    "PROJETS/PROJET V2/Projet V2.md",
+    "PROJETS/Projet Bubble v2.md",
+    "PROJET V2/Projet V2.md",
     "PROJET/A RENDRE.md",
     "TP08/Les images.md",
     "pdf.md",
     "PDF/TP6 - Algorithmique - 1.pdf",
     "PDF/TP - SQL - Terminale.pdf",
     "TP09/Les bases de données.md",
-    "qefseg.md",
-    "TP06/Explication tri sélectif.md",
-    "TP07/Le tri fusion.md",
-    "code.md"
+    "qefseg.md"
   ]
 }
