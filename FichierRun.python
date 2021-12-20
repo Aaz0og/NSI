@@ -1,0 +1,11 @@
+from random import randint
+stock =0
+lste = list()
+for _ in range(10):
+    stock = randint(0,100)
+    print(stock)
+    lste.append(stock)
+
+for elem in lste:
+    if elem == lste :
+        print(True)
