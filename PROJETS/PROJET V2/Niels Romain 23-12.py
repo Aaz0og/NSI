@@ -59,3 +59,29 @@ def carrestest(arx,stockx,stocky,ary):
     
 carres(x,y)
 """
+
+def carrestest(arx,stockx,stocky,ary):
+    if arx - stockx == ary:
+        return True
+    if arx - stockx == ary - stocky:
+        return True
+    if arx - stockx == ary + stocky:
+        return True
+    if arx + stockx == ary:
+        return True
+    if arx + stockx == ary - stocky:
+        return True
+    if arx + stockx == ary + stocky:
+        return True
+    if arx == ary:
+        return True
+sol=0
+
+for ax in x:
+    for bx in x:
+        for ay in y:
+            for by in y:
+                if carrestest(ax,bx,by,ay)== True:
+                    sol+=1
+                    print(sol)
+                    
