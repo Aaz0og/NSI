@@ -95,30 +95,3 @@ def trouvercarres(x, y):
 
 
 from collections import Counter
-
-x = [ 0,  3, 6, 9]
-y = [ 0,  3, 6, 9]
-
-def carresfinal(x, y):
-    xlist = list()
-    ylist = list()
-    grosse_liste = list()
-    print(len(x), len(y))
-    for i in range(len(x)):
-        try:
-            xlist.append(x[i + 1] - x[i])
-        except IndexError:
-            xlist.append(x[i])
-    for i in range(len(y)):
-        try:
-            ylist.append(y[i + 1] - y[i])
-        except IndexError:
-            ylist.append(y[i])     
-    print(xlist, ylist)
-    grosse_liste += xlist + ylist
-    grosse_liste=(xlist + list(set(ylist) - set(xlist)))
-    print(grosse_liste)
-    return len(grosse_liste)
-
-
-print(carresfinal(x, y))
