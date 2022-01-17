@@ -1,3 +1,7 @@
+x = [0, 3, 6, 9]
+y = [0, 3, 6, 9]
+
+
 def test(x, y):
     sol = 0
     stock = 0
@@ -21,20 +25,22 @@ for i in range(len(y)):
     
 print("SariY",sariy,"SariX",sarix)
 """
-"""
-def carres(tablex,tabley):
-    Stocky=0
-    Stockx=0
+
+
+def carres(tablex, tabley):
+    Stocky = 0
+    Stockx = 0
     sol = 0
     for arx in tablex:
         for ary in tabley:
-            if carrestest(arx,Stockx,Stocky,ary) == True:
+            if carrestest(arx, Stockx, Stocky, ary) == True:
                 sol += 1
             print("Solution:", sol)
             Stocky = ary
         Stockx = arx
-    
-def carrestest(arx,stockx,stocky,ary):
+
+
+def carrestest(arx, stockx, stocky, ary):
     if arx - stockx == ary:
         return True
     if arx - stockx == ary - stocky:
@@ -49,9 +55,9 @@ def carrestest(arx,stockx,stocky,ary):
         return True
     if arx == ary:
         return True
-    
-carres(x,y)
-"""
+
+
+carres(x, y)
 
 
 def carrestest(arx, stockx, stocky, ary):
@@ -94,4 +100,52 @@ def trouvercarres(x, y):
     return sol
 
 
-from collections import Counter
+def carrestestcomplique(x, y):
+    xlist = list()
+    ylist = list()
+    grosse_liste = list()
+    print(len(x), len(y))
+    for i in range(len(x)):
+        try:
+            xlist.append(x[i + 1] - x[i])
+        except IndexError:
+            xlist.append(x[i])
+    for i in range(len(y)):
+        try:
+            ylist.append(y[i + 1] - y[i])
+        except IndexError:
+            ylist.append(y[i])
+    print(xlist, ylist)
+    grosse_liste += xlist + ylist
+    grosse_liste = xlist + list(set(ylist) - set(xlist))
+    print(grosse_liste)
+    """
+    sol =0
+    for xgrosse in grosse_liste:
+        for ygrosse in grosse_liste:
+            if xgrosse == ygrosse: 
+                sol +=1 
+    return sol
+    """
+    return len(grosse_liste)
+
+
+def carrecoordonnes(lstx, lsty):
+    coordx = list()
+    coordy = list()
+    for lentx in range(len(lstx)):
+        try:
+            coordx.append(lstx[lentx])
+            coordx.append(lstx[lentx + 1])
+        except IndexError:
+            coordx.append(lstx[lentx])
+            # coordx.append(lstx[lentx])
+    for lenty in range(len(lsty)):
+        try:
+            coordy.append(lsty[lenty])
+            coordy.append(lsty[lenty + 1])
+        except IndexError:
+            coordy.append(lsty[lenty])
+            # coordy.append(lsty[lenty])
+
+    return coordx, coordy

@@ -7,7 +7,7 @@ class Cellule:
 longueurdelaliste = 1
 
 def nieme(lst):
-
+    pass
 def longueur(lst):
     global longueurdelaliste
     if lst.valeur == None:

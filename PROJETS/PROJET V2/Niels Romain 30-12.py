@@ -1,5 +1,5 @@
-x = [0, 3, 6, 9]
-y = [0, 3, 6, 9]
+x = [ 0, 2, 5, 10]
+y = [ 0, 3, 5]
 
 
 def carrestestcomplique(x, y):
@@ -32,4 +32,24 @@ def carrestestcomplique(x, y):
     return len(grosse_liste)
 
 
-print(carrestestcomplique(x, y))
+def carrecoordonnes(lstx,lsty):
+    coordx = list()
+    coordy = list()
+    for lentx in range(len(lstx)):
+        try:
+            coordx.append(lstx[lentx])
+            coordx.append(lstx[lentx+1])
+        except IndexError:
+            coordx.append(lstx[lentx])
+            #coordx.append(lstx[lentx])
+    for lenty in range(len(lsty)):
+        try:
+            coordy.append(lsty[lenty])
+            coordy.append(lsty[lenty+1])
+        except IndexError:
+            coordy.append(lsty[lenty])
+            #coordy.append(lsty[lenty])
+    
+    return coordx, coordy
+
+print(carrecoordonnes(x,y))
