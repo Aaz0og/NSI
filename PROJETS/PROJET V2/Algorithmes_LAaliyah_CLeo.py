@@ -12,18 +12,16 @@ def algo1(x,y):
                         cpt += 1
     return cpt
 
-
-
-
-"""Complexité de l'algo1:
+"""
+Complexité de l'algo1:
 On prend n la longueur de la liste
-O(n^4)"""
-
-"""L'algorithme de l'algo 1:
+O(n^4)
+L'algorithme de l'algo 1:
 parcours la liste des valeurs des droites verticales et horizontales, et compare toutes les valeurs entre elles,
 et si la grandeur de l'espace entre les 2 valeurs verticales est égale aux deux valeurs horizontales comparées, alors 
 on ajoute 1 au compteur
-le compteur représente le nombre de carrés"""
+le compteur représente le nombre de carrés
+"""
 
 
 def algo2(x,y):
@@ -66,14 +64,11 @@ x = [ 0, 2, 5, 10]
 y = [ 0, 3, 5]
 print(algo2(x,y))
 
-for i in range(9):
-    pass
-"""Complexité de l'algo2:
+"""
+Complexité de l'algo2:
 On prend n la longueur de la liste
 O(n*log(n))
-"""
-
-"""L'algorithme de l'algo 2:
+L'algorithme de l'algo 2:
 creer la liste x
 creer la liste y
 initialiser le compteur à 0
@@ -82,4 +77,5 @@ les enregistrer dans la liste x si elles sont supérieures à 0
 parcourir la liste des largeurs en comparant toute les largeurs possibles 
 les enregistrer dans la liste y si elles sont supérieures à 0
 parcours la liste x et la liste y et compare chaques valeurs
-si elles sont identiques ajouter 1 au compteur (le compteur représente le nombre de carrés)"""
+si elles sont identiques ajouter 1 au compteur (le compteur représente le nombre de carrés)
+"""
