@@ -2,7 +2,7 @@ x = [ 0, 2, 5, 10]
 y = [ 0, 3, 5]
 
 
-def carrestestcomplique(x, y):
+def carresgrosselistedistance(x, y):
     xlist = list()
     ylist = list()
     grosse_liste = list()
@@ -10,7 +10,7 @@ def carrestestcomplique(x, y):
     for i in range(len(x)):
         try:
             xlist.append(x[i + 1] - x[i])
-        except IndexError:
+        except IndexError: 
             xlist.append(x[i])
     for i in range(len(y)):
         try:
@@ -32,7 +32,7 @@ def carrestestcomplique(x, y):
     return len(grosse_liste)
 
 
-def carrecoordonnes(lstx,lsty):
+def carreslistedescoordonnes(lstx,lsty):
     coordx = list()
     coordy = list()
     for lentx in range(len(lstx)):
@@ -51,5 +51,3 @@ def carrecoordonnes(lstx,lsty):
             #coordy.append(lsty[lenty])
     
     return coordx, coordy
-
-print(carrecoordonnes(x,y))
