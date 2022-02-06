@@ -9,7 +9,7 @@
 					si c'est vrai ajouter 1 a une variable 
 				stocker dans une table la valeur de y actuelle
 			
-	
+[[Fichier brouillon projet 2]]	
 Je pense que la complexité augmente par rapport au nombre d'éléments qu'il y a dans la liste. Du moins c'est ce que je pense avec mon algorithme actuel.
 
 \- Niels, Romain

@@ -1,0 +1,4 @@
+def bonjour(monde): 
+    for _ in range(12): print("bonjour " + monde)
+
+bonjour("")

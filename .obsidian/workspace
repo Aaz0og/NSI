@@ -4,28 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "373de0e298ed7817",
+        "id": "7d3111e5b59c8b2d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "TP/Architectures matérielles/Ressources.md",
-            "mode": "source"
-          }
-        },
-        "group": "a74b92578b187812"
-      },
-      {
-        "id": "a0685531b0c10144",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "TP/Architectures matérielles/Ressources.md",
-            "mode": "preview"
-          }
-        },
-        "group": "a74b92578b187812"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -52,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#md",
+                "query": "tag:#graphG",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +45,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -82,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TP/Architectures matérielles/Ressources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,17 +84,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "373de0e298ed7817",
+  "active": "7d3111e5b59c8b2d",
   "lastOpenFiles": [
+    "Menu.md",
     "TP/Architectures matérielles/Ressources.md",
+    "PROJETS/PROJET V2/Projet V2.md",
+    "TP/TP13/Graphs.md",
+    "PROJETS/PROJET V2/Fichier brouillon projet 2.md",
     "Autre/SQL Meurtre.md",
     "README.md",
     "codes castor.md",
-    "Menu.md",
-    "PROJETS/PROJET V2/Fichier brouillon projet 2.md",
-    "PROJETS/PROJET V2/Projet V2.md",
     "IMAGES/Pasted image 20211223214630.png",
-    "PROJETS/Projet Bubble v2.md",
-    "PROJET V2/Projet V2.md"
+    "PROJETS/Projet Bubble v2.md"
   ]
 }
