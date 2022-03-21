@@ -72,7 +72,7 @@ WHERE "check_in_date"=20180109 AND "membership_id"='48Z55'
 INSERT INTO solution VALUES (1, 'Jeremy Bowers');
         
         SELECT value FROM solution;
--- J'ai trouvé le meurtrier c'était Jeremy mais apparemment quelqu'un d'encore plus méchant est a trouver (Je l'ai trouvé lui parce que tout coller avec les témoignages)
+-- J'ai trouvé le meurtrier c'était Jeremy mais apparemment quelqu'un d'encore plus méchant est a trouver (Je l'ai trouvé lui parce que tout colle avec les témoignages)
 ```
 
 First witness: ![[Pasted image 20211223214630.png]]

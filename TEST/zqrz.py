@@ -1,4 +1,0 @@
-MrEven=Personnage()
-dicobruh={}
-
-dicobruh

@@ -1,0 +1,23 @@
+def get_int_values
+    [gets, gets].map{ |s| s.chomp.to_i }
+end
+
+puts "Je veux [add], [mult], [sous] ?"
+response = gets.chomp
+
+case response.downcase
+when 'add'
+    puts "Quels nombres voulez vous additioner ?"
+    operator = :+
+
+when 'mult'
+    puts "Quels nombres voulez vous multiplier ?"
+    operator = :*
+
+when 'sous'
+    puts "Quels nombres voulez vous soustraire ?"
+    operator = :-
+
+end 
+answer = get_int_values.inject(operator)
+puts "La réponse est... #{ answer }"
