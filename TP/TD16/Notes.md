@@ -9,3 +9,5 @@ A.
 
 B.
 1. Oui le paradigme fonctionnel est respecté ici, aucune écriture sur la mémoire et aussi aucune recheche de fonction en dehors de ce qui est entré.
+2. 3. 4. (Voir [[SupportTD16 V2.py]])
+
